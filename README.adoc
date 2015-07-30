@@ -1,4 +1,7 @@
 :project-name: miq-InfoBlox
+:rake-scripts-location:
+
+# {project-name}
 
 ## General Information
 [width="100%",cols="1,9"]
@@ -29,7 +32,11 @@
 ## Install
 1) Download import/export rake scripts
 ----
-
+cd /tmp
+wget -O cfme-rhconsulting-scripts.zip https://github.com/rhtconsulting/cfme-rhconsulting-scripts/archive/master.zip
+unzip cfme-rhconsulting-scripts.zip
+cd cfme-rhconsulting-scripts
+make install
 ----
 
 2) Install {project-name} on appliance
