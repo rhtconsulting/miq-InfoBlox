@@ -1,10 +1,16 @@
 #!/bin/sh
-BUILDDIR=/tmp/CFME-build
+TOPDIR=`pwd`
 DOMAIN=miq-Marketplace
 
-if [ -d ${BUILDDIR} ] ; then
-    rm -fR ${BUILDDIR}
-fi
+install_cmd() {
+    echo "Importing ${DOMAIN} from ${TOPDIR}/Automate/${DOMAIN}"
+    cd /var/www/miq/vmdb
+    bin/rake "rhconsulting:miq_ae_datastore:import[${DOMAIN}, ${TOPDIR}/Automate]"
+}
 
-cd /var/www/miq/vmdb
-bin/rake "rhconsulting:miq_ae_datastore:import[${DOMAIN}, ${BUILDDIR}/Automate]"
+if [ -d ${TOPDIR}/Automate/${DOMAIN} ] ; then
+    install_cmd
+else
+    echo "Error, ${TOPDIR}/Automate/${DOMAIN} does NOT exist"
+    exit 1
+fi
