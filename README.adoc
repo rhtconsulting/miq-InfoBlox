@@ -1,9 +1,9 @@
-# miq-InfoBlox
+project-name: miq-InfoBlox
 
 ## General Information
 [width="100%",cols="1,9"]
 |======================
-| Name      | miq-InfoBlox
+| Name      | {project-name}
 | License   | GPL v2 (see LICENSE file)
 | Version   | 1.0
 | Summary   | Integration of ManageIQ with Infoblox in order to: Get next ip, Add host records, Delete host records (Including all aliases), Add aliases, Add dhcp entries, Add/Remove DHCP Reservations
@@ -26,3 +26,15 @@
 | Jose Simonelli    | jose@redhat.com
 |======================
 
+## Install
+1) Download import/export rake scripts
+----
+
+----
+
+2) Install {project-name} on appliance
+
+## Config {project-name}
+
+
+## Test
