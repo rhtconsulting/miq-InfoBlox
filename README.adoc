@@ -1,4 +1,6 @@
 :project-name: miq-InfoBlox
+:project-repo: https://github.com/rhtconsulting/miq-InfoBlox
+:project-zip: https://github.com/rhtconsulting/miq-InfoBlox/archive/master.zip
 :rake-scripts-location:
 
 # {project-name}
@@ -40,6 +42,13 @@ make install
 ----
 
 2) Install {project-name} on appliance
+----
+cd /tmp
+wget -O {project-name}.zip {project-zip}
+unzip {project-name}.zip
+cd {project-name}
+sh install.sh
+----
 
 ## Config {project-name}
 
