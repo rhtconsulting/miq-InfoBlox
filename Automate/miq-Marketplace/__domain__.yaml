@@ -4,8 +4,8 @@ version: 1.0
 object:
   attributes:
     name: miq-Marketplace
-    description:
-    display_name:
+    description: 
+    display_name: 
     system: false
     priority: 2
     enabled: true
