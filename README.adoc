@@ -1,4 +1,4 @@
-project-name: miq-InfoBlox
+:project-name: miq-InfoBlox
 
 ## General Information
 [width="100%",cols="1,9"]
