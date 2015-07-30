@@ -42,11 +42,15 @@ make install
 ----
 
 2) Install {project-name} on appliance
+----
+PROJECT_NAME="miq-InfoBlox"
+PROJECT_ZIP="https://github.com/rhtconsulting/miq-InfoBlox/archive/master.zip"
 cd /tmp
-wget -O {project-name}.zip {project-zip}
-unzip {project-name}.zip
-cd {project-name}
+wget -O ${PROJECT_NAME}.zip ${PROJECT_NAME}
+unzip ${PROJECT_NAME}.zip
+cd ${PROJECT_NAME}
 sh install.sh
+----
 
 ## Config {project-name}
 
