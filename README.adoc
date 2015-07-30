@@ -1,0 +1,28 @@
+# miq-InfoBlox
+
+## General Information
+[cols="1,9",options="header"]
+|======================
+| Name      | miq-InfoBlox
+| License   | GPL v2 (see LICENSE file)
+| Version   | 1.0
+| Summary   | Integration of ManageIQ with Infoblox in order to: Get next ip, Add host records, Delete host records (Including all aliases), Add aliases, Add dhcp entries, Add/Remove DHCP Reservations
+|======================
+
+## Author
+[width="100%",cols="10,90",options="header"]
+|======================
+| Name              | E-mail
+| Kevin Morey       | kmorey@redhat.com
+| Brandon Johnson   | brjohnso@redhat.com
+| Jose Simonelli    | jose@redhat.com
+| Jason Ritenour    | jritenou@redhat.com
+|======================
+
+## Packager
+[width="100%",cols="10,90",options="header"]
+|======================
+| Name              | E-mail
+| Jose Simonelli    | jose@redhat.com
+|======================
+
