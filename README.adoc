@@ -10,7 +10,7 @@
 |======================
 
 ## Author
-[width="100%",cols="1,9",options="header"]
+[cols="1,9",options="header"]
 |======================
 | Name              | E-mail
 | Kevin Morey       | kmorey@redhat.com
@@ -20,7 +20,7 @@
 |======================
 
 ## Packager
-[width="100%",cols="1,9",options="header"]
+[cols="1,9",options="header"]
 |======================
 | Name              | E-mail
 | Jose Simonelli    | jose@redhat.com
